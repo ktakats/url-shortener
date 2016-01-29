@@ -1,0 +1,20 @@
+{
+  "name": "url_short",
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.1.4",
+    "validator": "^4.5.1",
+    "nodejs": "^0.0.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ktakats",
+  "license": "ISC"
+}

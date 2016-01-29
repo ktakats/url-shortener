@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Url shortener</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+        <h2 class="header">FCC API Basejump: URL shortener microservice</h2>
+        <blockquote>
+                User stories:
+                <ul>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response..</ul>
+                <ul>2) If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</ul>
+                <ul>3) When I visit that shortened URL, it will redirect me to my original link.</ul>
+            </blockquote>
+            
+            <h3>Examples:</h3>
+            <p>
+            <code>https://url-shortener-ktakats.herokuapp.com/www.google.com</code><br>
+            
+            returns<br>
+            <code>{"original": "www.google.com", "shortened": "https://url-shortener-ktakats.herokuapp.com/1"}</code>
+            </p>
+            <p>
+            <code>https://url-shortener-ktakats.herokuapp.com/1</code>
+            
+            <br>redirects to<br> 
+            <code>www.google.com</code>
+            </p>
+        </div>
+    </body>
+</html>
